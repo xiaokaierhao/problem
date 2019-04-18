@@ -10,10 +10,10 @@ $(function() {
 
     }
   })
-  function () {
-    window.res={
-      resDate:resDate
-    }
-  }
+  // function () {
+  //   window.res={
+  //     resDate:resDate
+  //   }
+  // }
 
 })
