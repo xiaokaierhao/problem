@@ -1,3 +1,3 @@
 $(function () {
-  console.log(resDate);
+  console.log(res.resDate);
 })
