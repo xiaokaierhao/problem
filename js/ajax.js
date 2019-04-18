@@ -12,7 +12,7 @@ $(function() {
   })
   function () {
     window.res={
-      resDate:resDate;
+      resDate:resDate
     }
   }
 
