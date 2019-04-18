@@ -1,7 +1,5 @@
 $(function() {
-  window.res={
-    resDate:resDate;
-  }
+
   var resDate = [];
   $.ajax({
     url:'./quizzes.json',
@@ -12,4 +10,7 @@ $(function() {
 
     }
   })
+  window.res={
+    resDate:resDate;
+  }
 })
