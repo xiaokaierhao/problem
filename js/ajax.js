@@ -1,8 +1,15 @@
 $(function() {
+  window.res={
+    resDate:resDate;
+  }
+  var resDate = [];
   $.ajax({
     url:'./quizzes.json',
-    success:function () {
-      console.log('aaa');
+    success:function (res) {
+      // console.log('aaa');
+      resDate = res;
+
+
     }
   })
 })
