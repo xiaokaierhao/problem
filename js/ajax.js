@@ -8,13 +8,14 @@ $(function() {
       resDate = res;
 
       console.log(resDate);
+      res={
+        resDate:resDate,
+        asdf:'asdf'
+      }
     }
   })
   console.log(resDate);
-  res={
-    resDate:resDate,
-    asdf:'asdf'
-  }
+
   // function () {
   //   window.res={
   //     resDate:resDate
