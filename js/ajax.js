@@ -7,9 +7,10 @@ $(function() {
       // console.log('aaa');
       resDate = res;
 
-
+      console.log(resDate);
     }
   })
+  console.log(resDate);
   res={
     resDate:resDate,
     asdf:'asdf'
