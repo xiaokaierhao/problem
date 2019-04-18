@@ -11,7 +11,8 @@ $(function() {
     }
   })
   res={
-    resDate:resDate
+    resDate:resDate,
+    asdf:'asdf'
   }
   // function () {
   //   window.res={
