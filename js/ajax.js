@@ -1,6 +1,6 @@
 $(function() {
 
-  var resDate = [];
+  resDate = [];
   $.ajax({
     url:'./quizzes.json',
     success:function (res) {
@@ -10,7 +10,7 @@ $(function() {
 
     }
   })
-  window.res={
-    resDate:resDate;
-  }
+  // window.res={
+  //   resDate:resDate;
+  // }
 })
