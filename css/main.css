@@ -1,0 +1,45 @@
+.start,.gaming,.end{
+  height: 100%;
+  width: 375px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.start{
+  z-index: 3;
+  background: #0A369D;
+  justify-content: center;
+}
+.start button,.end button{
+  background: #6CBEED;
+  border: 1px solid #5E7CE2;
+  border-radius: 3px;
+  color: #CFDEE7;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.gaming{
+  z-index: 2;
+  background: #CFDEE7;
+}
+.gaming .title,.gaming .answer{
+  width: 100%;
+  margin: 10px 20px;
+}
+.title h2{
+  margin-left:  20px;
+  /* display:block; */
+}
+.gaming .item{
+  /* display: block; */
+  width: 100%;
+  margin:10px 20px;
+}
+.end{
+  z-index: 1;
+  justify-content: center;
+}
